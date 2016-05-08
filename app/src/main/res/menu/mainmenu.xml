@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:balloonberry="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_toggle_parser"
+        android:title="menuItems"
+        android:onClick="setToggleOnClick"
+        android:orderInCategory="10"
+        balloonberry:showAsAction="always"
+        android:icon="@drawable/btn_on_custom" />
+    <item android:id="@+id/menu_add_lines"
+        android:title="menuItems"
+        android:onClick="setLineAddOnClick"
+        android:orderInCategory="10"
+        balloonberry:showAsAction="always"
+        android:icon="@drawable/btn_plus_custom" />
+    <item android:id="@+id/menu_remove_lines"
+        android:title="menuItems"
+        android:onClick="setLineRemoveOnClick"
+        android:orderInCategory="10"
+        balloonberry:showAsAction="always"
+        android:icon="@drawable/btn_minus_custom" />
+</menu>
