@@ -23,7 +23,7 @@ import javax.xml.xpath.XPathExpressionException;
  */
 public class ApiExtraction extends AsyncTask<Void, Void, HashMap<String, String>>{
     private static AlchemyAPI api;
-    private final String APIKEY = "e6bcc38d5eddb67c59630be55f02b9257b66ac5c";
+    private final String APIKEY = ""; // API KEY HERE
     HashMap<String, String> map;
     String url;
 
